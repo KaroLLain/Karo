@@ -21,15 +21,15 @@ public class TestingMain {
 
         int additionResult = calculator.add(10,7);
 
-                if(additionResult == additionResult){
-                    System.out.println(additionResult + " " + "Test OK");
+                if(additionResult == 17){
+                    System.out.println("Test OK");
                 }else{
                     System.out.println("Error");
                 }
         int subtractionResult = calculator.subtract(10,7);
 
-                if (subtractionResult == subtractionResult){
-                    System.out.println(subtractionResult + " " + "Test OK");
+                if (subtractionResult == 3){
+                    System.out.println("Test OK");
                 }else{
                     System.out.println("Error");
                 }
