@@ -34,6 +34,7 @@ public class CollectionTestSuite {
 
         //Given
         OddNumbersExterminator oddNumbersExterminator = new OddNumbersExterminator();
+
         ArrayList<Integer> normalList = new ArrayList<>();
         normalList.add(1);
         normalList.add(2);
@@ -42,10 +43,16 @@ public class CollectionTestSuite {
         normalList.add(5);
         normalList.add(6);
 
+        ArrayList<Integer> checkList = new ArrayList<>();
+        checkList.add(2);
+        checkList.add(4);
+        checkList.add(6);
+
         //When
         ArrayList<Integer> evenNumber = oddNumbersExterminator.exterminate(normalList);
 
         //Then
         Assert.assertEquals(3, evenNumber.size());
+        Assert.assertEquals(checkList, evenNumber);
     }
 }
