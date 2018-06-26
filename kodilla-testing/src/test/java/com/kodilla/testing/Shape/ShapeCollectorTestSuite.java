@@ -59,7 +59,7 @@ public class ShapeCollectorTestSuite {
 
 
     @Test
-    public void testShowFigures(){
+    public void testGetFigures(){
         //Given
         shapeCollector = new ShapeCollector();
         Shape circle = new Circle(3);
