@@ -1,4 +1,4 @@
-package com.kodilla.testing.forum;
+package com.kodilla.testing.forum.tdd;
 
 import com.kodilla.testing.forumI.ForumComment;
 import com.kodilla.testing.forumI.ForumPost;
