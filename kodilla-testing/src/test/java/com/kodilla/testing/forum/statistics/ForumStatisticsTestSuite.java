@@ -1,7 +1,5 @@
-package com.kodilla.testing.forum.Statistics;
+package com.kodilla.testing.forum.statistics;
 
-import com.kodilla.testing.forum.statistics.ForumStatistics;
-import com.kodilla.testing.forum.statistics.Statistics;
 import org.junit.*;
 
 import java.util.*;

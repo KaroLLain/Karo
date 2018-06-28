@@ -8,24 +8,18 @@ public class ForumStatistics {
     double averagePostsForUser;
     double averageCommentsForUser;
     double averageCommentsForPost;
-    boolean valueZero;
 
     public void calculateAdvStatistics(Statistics statistics) {
         this.usersNo = statistics.userName().size();
         this.postsNo = statistics.postsCount();
         this.commentsNo = statistics.commentsCount();
 
-        if(postsNo > 0) {
-            if(usersNo>0){
+        if(postsNo > 0 && usersNo > 0) {
             this.averageCommentsForUser = commentsNo / usersNo;
             this.averageCommentsForPost = commentsNo / postsNo;
             this.averagePostsForUser = postsNo / usersNo;
-        }}else {
-            this.valueZero=false;
         }
-    }
-
-
+        }
 
     public int getUsersNo() {
         return usersNo;

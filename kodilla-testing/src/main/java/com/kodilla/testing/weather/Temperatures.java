@@ -1,4 +1,4 @@
-package com.kodilla.testing.Weather;
+package com.kodilla.testing.weather;
 
 import java.util.HashMap;
 
