@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-07-13T18:12:01" hostname="DESKTOP-EUM8VKM" time="0.13">
+  <properties/>
+  <testcase name="testWhenCommentsQuantityIsHigherThanPostsQuantity" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.113"/>
+  <testcase name="testWhenPostsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.004"/>
+  <testcase name="testWhenCommentsQuantityIsLowerThanPostsQuantity" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testWhenUsersQuantityIs100" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
+  <testcase name="testWhenCommentsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.003"/>
+  <testcase name="testWhenUsersQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
+  <testcase name="testWhenPostsQuantityIs1000" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.003"/>
+  <system-out><![CDATA[Preparing to execute test No.1
+Users quantity is: 10
+Posts quantity is: 5/n
+Comments quantity is: 20/n
+Average comments for user is: 2.0/n
+Average comments for post is: 4.0/n
+Average posts for user is: 0.0
+ 
+Preparing to execute test No.2
+Users quantity is: 10
+Posts quantity is: 0/n
+Comments quantity is: 20/n
+Average comments for user is: 0.0/n
+Average comments for post is: 0.0/n
+Average posts for user is: 0.0
+ 
+Preparing to execute test No.3
+Users quantity is: 10
+Posts quantity is: 20/n
+Comments quantity is: 5/n
+Average comments for user is: 0.0/n
+Average comments for post is: 0.0/n
+Average posts for user is: 2.0
+ 
+Preparing to execute test No.4
+Users quantity is: 10
+Posts quantity is: 10/n
+Comments quantity is: 20/n
+Average comments for user is: 0.0/n
+Average comments for post is: 2.0/n
+Average posts for user is: 0.0
+ 
+Preparing to execute test No.5
+Users quantity is: 10
+Posts quantity is: 10/n
+Comments quantity is: 0/n
+Average comments for user is: 0.0/n
+Average comments for post is: 0.0/n
+Average posts for user is: 1.0
+ 
+Preparing to execute test No.6
+Users quantity is: 10
+Posts quantity is: 10/n
+Comments quantity is: 20/n
+Average comments for user is: 0.0/n
+Average comments for post is: 0.0/n
+Average posts for user is: 0.0
+ 
+Preparing to execute test No.7
+Users quantity is: 10
+Posts quantity is: 1000/n
+Comments quantity is: 20/n
+Average comments for user is: 2.0/n
+Average comments for post is: 0.0/n
+Average posts for user is: 100.0
+ 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
