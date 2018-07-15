@@ -8,8 +8,8 @@ public final class World {
 
     private final List<Continent> continents = new ArrayList<>();
 
-    public boolean addContinent(Continent continent){
-        return continents.add(continent);
+    public void addContinent(Continent continent){
+        continents.add(continent);
     }
 
     public final BigDecimal getPeopleQuantity(){
