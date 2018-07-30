@@ -8,7 +8,7 @@ public class ProductOrderDTO {
     private LocalDateTime orderDate;
     private Item item;
     private int quantity;
-    boolean isItemSold;
+    private boolean isItemSold;
 
     public ProductOrderDTO(final User user, LocalDateTime orderDate, Item item, int quantity, boolean isItemSold) {
         this.user = user;

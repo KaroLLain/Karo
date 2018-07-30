@@ -13,7 +13,7 @@ public class ProductOrderRequestRetriever {
                 785621512);
         LocalDateTime orderDate = LocalDateTime.of(2018, 7, 30, 12, 23);
         Item item = new CategoryKitchen("Ceramic plates",
-                "100% ceramic, flower paintings, handcrafted, 12 piece set",
+                "100% ceramic, flower paintings, handcrafted, 12 pieces set.",
                 new BigDecimal(49.55));
         int quantity = 1;
 
