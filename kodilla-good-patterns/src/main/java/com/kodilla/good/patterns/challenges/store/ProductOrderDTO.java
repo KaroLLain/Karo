@@ -35,9 +35,6 @@ public class ProductOrderDTO {
     }
 
     public boolean isItemSold() {
-        if (!isItemSold) {
-            System.out.println("Your order can't be processed.");
-        }
             return true;
         }
 
