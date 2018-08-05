@@ -15,14 +15,14 @@ public class App {
         System.out.println("All flights from: ");
 
         flightsRepository.theFlight.stream()
-                .filter(flight -> flight.getDeparture() == "Sacramento")
+                .filter(flight -> flight.getDeparture().equals("Sacramento"))
                 .forEach(System.out::println);
         System.out.println(" ");
 
         System.out.println("All flights to: ");
 
         flightsRepository.theFlight.stream()
-                .filter(flight -> flight.getDestination() == "Charleston")
+                .filter(flight -> flight.getDestination().equals("Charleston"))
                 .forEach(System.out::println);
         System.out.println(" ");
 
@@ -31,6 +31,7 @@ public class App {
                 .peek(flight -> flight.getDeparture())
                 .filter(flight -> (flight.getDeparture() == "Doha" || flight.getDestination() == "Berlin"))
                 .forEach(System.out::println);
+
 
     }
 }
