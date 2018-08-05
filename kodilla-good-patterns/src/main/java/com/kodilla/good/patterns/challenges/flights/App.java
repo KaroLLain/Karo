@@ -28,8 +28,7 @@ public class App {
 
         System.out.println("Flight through: ");
         flightsRepository.theFlight.stream()
-                .peek(flight -> flight.getDeparture())
-                .filter(flight -> (flight.getDeparture() == "Doha" || flight.getDestination() == "Berlin"))
+                .filter(flight -> (flight.getDeparture().equals("Doha") || flight.getDestination().equals("Berlin")))
                 .forEach(System.out::println);
 
 
