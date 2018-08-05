@@ -15,6 +15,7 @@ public class OrderRetriever {
         orderedItems.put("Almond flour", 3);
         orderedItems.put("Soy Milk", 1);
         orderedItems.put("Agave syrup", 1);
+        orderedItems.put("Sesame", 10);
 
         return new Order(orderedItems, userSpecifics);
     }

@@ -1,6 +1,10 @@
 package com.kodilla.good.patterns.challenges.food2door;
 
+import java.util.Set;
+
 public interface Processor {
 
-    void process(Order order);
+    Set<String> products();
+
+    void process(String productName, int quantity, UserSpecifics userSpecifics);
 }

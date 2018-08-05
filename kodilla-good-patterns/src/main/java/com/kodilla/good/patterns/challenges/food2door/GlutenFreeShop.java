@@ -2,6 +2,7 @@ package com.kodilla.good.patterns.challenges.food2door;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class GlutenFreeShop implements Processor{
 
@@ -15,17 +16,20 @@ public class GlutenFreeShop implements Processor{
 
         return products;
     }
-    public void process(Order order){
+    @Override
+    public Set<String> products() {
+        return shopProducts().keySet();
+    }
+    public void process(String productName, int quantity, UserSpecifics userSpecifics){
 
-        for (String name : order.getOrder().keySet()) {
-            if (shopProducts().containsKey(name) &&
-                    (shopProducts().get(name) > order.getOrder().get(name))) {
-                System.out.println("Product : " + name + " is available. Ordered quantity: " + order.getOrder().get(name));
-            } else {
-                System.out.println("Product: " + name + " is not available.");
-            }
+        if (shopProducts().containsKey(productName) &&
+                (shopProducts().get(productName) > quantity)) {
+            System.out.println("Product : " + productName + " is available. Ordered quantity: " + quantity);
+        } else {
+            System.out.println("Product: " + productName + " is not available.");
         }
-        System.out.println("\nDelivery address: " + order.getUserSpecifics().getDeliveryAddress());
+
+        System.out.println("\nDelivery address: " + userSpecifics.getDeliveryAddress());
 
     }
 }
