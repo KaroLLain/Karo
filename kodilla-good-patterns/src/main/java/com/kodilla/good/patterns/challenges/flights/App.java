@@ -1,36 +1,15 @@
 package com.kodilla.good.patterns.challenges.flights;
 
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static javafx.scene.input.KeyCode.T;
-
 public class App {
 
     public static void main (String[]args){
 
         FlightsRepository flightsRepository = new FlightsRepository();
 
-        System.out.println("All flights from: ");
-
-        flightsRepository.theFlight.stream()
-                .filter(flight -> flight.getDeparture().equals("Sacramento"))
-                .forEach(System.out::println);
+        flightsRepository.allFlightsFrom("Sacramento");
         System.out.println(" ");
-
-        System.out.println("All flights to: ");
-
-        flightsRepository.theFlight.stream()
-                .filter(flight -> flight.getDestination().equals("Charleston"))
-                .forEach(System.out::println);
+        flightsRepository.allFlightsTo("Charleston");
         System.out.println(" ");
-
-        System.out.println("Flight through: ");
-        flightsRepository.theFlight.stream()
-                .filter(flight -> (flight.getDeparture().equals("Doha") || flight.getDestination().equals("Berlin")))
-                .forEach(System.out::println);
-
-
+        flightsRepository.connectingFlights("Charleston", "Sacramento");
     }
 }
