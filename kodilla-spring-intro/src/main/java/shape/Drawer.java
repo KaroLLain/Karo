@@ -2,14 +2,14 @@ package shape;
 
 public class Drawer {
 
-    public void doDrawing(){
+        final Shape shape;
 
-        Figure figure;
+        public Drawer(final Shape shape){
+            this.shape = shape;
+        }
 
-        figure = new Circle();
-        figure.draw();
+        public String doDrawing(){
 
-        figure = new Triangle();
-        figure.draw();
-    }
+            return shape.draw();
+        }
 }
