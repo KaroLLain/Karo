@@ -1,6 +1,6 @@
 package com.kodilla.good.patterns.challenges.flights;
 
-import java.util.Set;
+import java.util.List;
 
 public class App {
 
@@ -8,7 +8,7 @@ public class App {
 
         FlightSearcher flightSearcher = new FlightSearcher();
         FlightsRepository flightsRepository = new FlightsRepository();
-        Set<Flight> list = flightsRepository.getTheFlight();
+        List<Flight> list = flightsRepository.getTheFlight();
 
         flightSearcher.allFlightsFrom(list, "Sacramento");
         System.out.println();

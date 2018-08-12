@@ -1,12 +1,12 @@
 package com.kodilla.good.patterns.challenges.flights;
 
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FlightsRepository {
 
-        private Set<Flight> theFlight = new HashSet<>();
+        private List<Flight> theFlight = new ArrayList<>();
 
         public FlightsRepository() {
         theFlight.add(new Flight("Doha", "Warsaw"));
@@ -19,8 +19,8 @@ public class FlightsRepository {
         theFlight.add(new Flight("Johnson City", "Charleston"));
         }
 
-        public Set<Flight> getTheFlight() {
-            return new HashSet<>(theFlight);
+        public List<Flight> getTheFlight() {
+            return new ArrayList<>(theFlight);
         }
 }
 
