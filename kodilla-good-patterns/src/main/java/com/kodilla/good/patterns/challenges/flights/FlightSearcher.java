@@ -28,9 +28,9 @@ public class FlightSearcher {
 
             for (Flight flightTo : destinationFlights) {
                 for (Flight flightFrom : departureFlights) {
-                    if (flightTo.getDestination().equals(flightFrom.getDeparture())) {
-                        System.out.println(destinationFlights);
+                    if (flightTo.getDeparture().equals(flightFrom.getDestination())) {
                         System.out.println(departureFlights);
+                        System.out.println(destinationFlights);
                     }
                 }
             }
