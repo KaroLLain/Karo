@@ -1,6 +1,5 @@
 package com.kodilla.patterns.singleton;
 
-import com.kodilla.patterns.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 
