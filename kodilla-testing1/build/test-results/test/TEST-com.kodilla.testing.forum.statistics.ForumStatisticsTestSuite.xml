@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-07-13T18:12:01" hostname="DESKTOP-EUM8VKM" time="0.13">
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-08-30T20:09:04" hostname="DESKTOP-EUM8VKM" time="0.206">
   <properties/>
-  <testcase name="testWhenCommentsQuantityIsHigherThanPostsQuantity" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.113"/>
-  <testcase name="testWhenPostsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.004"/>
+  <testcase name="testWhenCommentsQuantityIsHigherThanPostsQuantity" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.195"/>
+  <testcase name="testWhenPostsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.003"/>
   <testcase name="testWhenCommentsQuantityIsLowerThanPostsQuantity" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
-  <testcase name="testWhenUsersQuantityIs100" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
-  <testcase name="testWhenCommentsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.003"/>
-  <testcase name="testWhenUsersQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
-  <testcase name="testWhenPostsQuantityIs1000" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.003"/>
+  <testcase name="testWhenUsersQuantityIs100" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testWhenCommentsQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
+  <testcase name="testWhenUsersQuantityIs0" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testWhenPostsQuantityIs1000" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
   <system-out><![CDATA[Preparing to execute test No.1
 Users quantity is: 10
 Posts quantity is: 5/n

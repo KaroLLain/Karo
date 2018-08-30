@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-30T20:08:59" hostname="DESKTOP-EUM8VKM" time="0.006">
+  <properties/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.006"/>
+  <system-out><![CDATA[Library{name='Library', books=[Book{title='Amok', author='John String', publicationDate=1987-02-21}, Book{title='Amber', author='Robin Crust', publicationDate=1999-08-12}]}
+Library{name='Shallow Copy - Library', books=[Book{title='Amok', author='John String', publicationDate=1987-02-21}, Book{title='Amber', author='Robin Crust', publicationDate=1999-08-12}]}
+Library{name='Deep Copy - Library', books=[Book{title='Amok', author='John String', publicationDate=1987-02-21}, Book{title='Amber', author='Robin Crust', publicationDate=1999-08-12}, Book{title='Coco', author='Anabelle Martin', publicationDate=2005-12-16}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-07-13T18:12:01" hostname="DESKTOP-EUM8VKM" time="0.002">
+<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-30T20:09:04" hostname="DESKTOP-EUM8VKM" time="0.005">
   <properties/>
-  <testcase name="testGetFigures" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
-  <testcase name="testRemoveFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testGetFigures" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.004"/>
+  <testcase name="testRemoveFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
   <testcase name="testAddFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
   <system-out><![CDATA[This is beginning of tests.
 Prepare to executing test #1

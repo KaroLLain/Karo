@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-30T20:08:59" hostname="DESKTOP-EUM8VKM" time="0.003">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.002"/>
+  <testcase name="testIndividualSharingStrategy" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.0"/>
+  <system-out><![CDATA[Karol Darwin share: Facebook
+Ann Shirley share: Twitter
+Ville Valo share: Snapchat
+Karol Darwin share: Facebook
+Karol Darwin share: Snapchat
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
