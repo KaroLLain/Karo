@@ -1,5 +1,7 @@
 package com.kodilla.kodilla.hibernate.task;
 
+import com.kodilla.kodilla.hibernate.taskList.TaskList;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
@@ -12,6 +14,7 @@ public class Task {
     private Date created;
     private int duration;
     private TaskFinancialDetails taskFinancialDetails;
+    private TaskList taskList;
 
     public Task(String description, int duration) {
         this.description = description;
@@ -44,6 +47,16 @@ public class Task {
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     public TaskFinancialDetails getTaskFinancialDetails() {
         return taskFinancialDetails;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "TASKLIST_ID")
+    public TaskList getTaskList() {
+        return taskList;
+    }
+
+    public void setTaskList(TaskList taskList) {
+        this.taskList = taskList;
     }
 
     public void setTaskFinancialDetails(TaskFinancialDetails taskFinancialDetails) {
