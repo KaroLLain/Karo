@@ -1,10 +1,8 @@
 package com.kodilla.kodilla.hibernate.taskList;
 
-import com.kodilla.kodilla.hibernate.task.Task;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.List;
+
 
 @Entity
 @Table(name = "TASKLISTS")
