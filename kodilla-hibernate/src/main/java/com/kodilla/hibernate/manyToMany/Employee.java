@@ -13,7 +13,7 @@ public class Employee {
     private String lastname;
     private List<Company> companies = new ArrayList<>();
 
-    public Employee() {
+    public Employee(){
     }
 
     public Employee(String firstname, String lastname) {

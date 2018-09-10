@@ -12,7 +12,7 @@ public class Company {
     private String name;
     private List<Employee> employees = new ArrayList<>();
 
-    public Company() {
+    public Company(){
     }
 
     public Company(String name) {

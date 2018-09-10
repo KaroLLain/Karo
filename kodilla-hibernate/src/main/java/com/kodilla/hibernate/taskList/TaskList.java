@@ -53,7 +53,7 @@ public class TaskList {
         return tasks;
     }
 
-    private void setTasks(List<Task> tasks) {
+    public void setTasks(List<Task> tasks) {
         this.tasks = tasks;
     }
 

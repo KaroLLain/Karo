@@ -12,11 +12,6 @@ public class Invoice {
     private String number;
     private List<Item> items = new ArrayList<>();
 
-    public Invoice(String number, List<Item> items) {
-        this.number = number;
-        this.items = items;
-    }
-
     public Invoice (String number){
         this.number = number;
     }
